@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Grafik</string>
+    <string name="home">Strona główna</string>
+    <string name="about">O aplikacji</string>
+    <string name="info">Siłowanie z rekinami</string>
+    <string name="timetable">Grafik</string>
+    <string name="stats">Statystyki</string>
+
+    <string name="timetable_tips">Tips:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, urna in venenatis accumsan, magna leo eleifend tortor, vel mollis dui felis eget lectus.</string>
+    <string name="text_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis ligula ac fermentum efficitur. Nulla accumsan consectetur dapibus. In rhoncus justo id justo laoreet, non lacinia odio pharetra. Proin malesuada orci metus, ac ullamcorper dolor tempus quis. Cras pretium efficitur magna ac rhoncus. Morbi sit amet massa ac erat porta rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor, metus vel tristique tincidunt, diam leo luctus nibh, in porta neque ligula ut enim. Cras quis malesuada sem, nec rutrum dui. Curabitur et faucibus nunc. In tincidunt, est vel lacinia vestibulum, dolor ipsum scelerisque elit, eu eleifend odio felis eu dolor. Vivamus auctor porttitor lectus ac aliquet. Ut mollis justo in tempor dapibus. Nam risus lectus, luctus ut odio nec, suscipit vulputate nulla.</string>
+
 </resources>

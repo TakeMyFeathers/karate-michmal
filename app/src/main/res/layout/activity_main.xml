@@ -8,24 +8,27 @@
     android:background="@color/primary"
     android:padding="20dp">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:layout_marginBottom="50dp">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/menuButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
             android:clickable="true"
             app:fabCustomSize="60dp"
             app:fabSize="normal"
             app:maxImageSize="84dp"
-            app:srcCompat="@drawable/arrow_left_svgrepo_com"
+            app:srcCompat="@drawable/left_arrow"
+            android:contentDescription="Return to the menu"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="0dp"
-            android:layout_marginRight="20dp"/>
+            tools:layout_editor_absoluteY="0dp" />
 
         <TextView
             android:id="@+id/textView"

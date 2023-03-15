@@ -4,37 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TimetableActivity"
     android:background="@color/primary"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center_horizontal">
+    tools:context=".TimetableActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:layout_marginBottom="50dp">
+        android:layout_marginBottom="50dp"
+        android:gravity="center_vertical">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/menuButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
             android:clickable="true"
             app:fabCustomSize="60dp"
             app:fabSize="normal"
             app:maxImageSize="84dp"
-            app:srcCompat="@drawable/arrow_left_svgrepo_com"
+            app:srcCompat="@drawable/left_arrow"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="0dp"
-            android:layout_marginRight="20dp"/>
+            tools:layout_editor_absoluteY="0dp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
-            android:text="Grafik"
+            android:text="@string/timetable"
             android:textColor="@color/secondary"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="115dp"
@@ -46,36 +46,31 @@
         android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="80dp"
         android:theme="@style/CalenderViewCustom"
-        android:dateTextAppearance="@style/CalenderViewDateCustomText"
+        android:dateTextAppearance="@style/CalenderViewWeekCustomText"
         android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
-        />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="80dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/secondary"
-        android:text="Tips:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, urna in venenatis accumsan, magna leo eleifend tortor, vel mollis dui felis eget lectus." />
+        android:text="@string/timetable_tips"
+        android:textColor="@color/secondary" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Dni treningowe"
-        android:textColor="@color/secondary"
         android:textAlignment="center"
-        android:textSize="20dp"/>
+        android:textColor="@color/secondary"
+        android:textSize="20dp" />
 
     <ListView
-        android:id="@+id/workoutDaysList"
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        />
-
-
+        android:layout_height="wrap_content"/>
 </LinearLayout>
